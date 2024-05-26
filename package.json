@@ -9,8 +9,8 @@
       "asta": "pm2 start . --deep-monitoring --attach --name Gifted || node .",
       "start": "pm2 start . --attach --name Gifted",
       "stop": "pm2 stop Gifted",
-      "heroku-postbuild": "git clone https://github.com/gifteddevs/Gifted-Md.git temp && mv temp/.git .git && rm -rf temp && npx puppeteer@latest install  --y",
-      "fis-heroku-postbuild": "git clone https://github.com/gifteddevs/Gifted-Md.git temp1 && rsync -av temp1/* ./ && rsync -av temp1/.* ./ && rm -rf temp1 && npm i && npx puppeteer@latest install",
+      "heroku-postbuild": "git clone https://github.com/gifteddevs/Gifted-M-d.git temp && mv temp/.git .git && rm -rf temp && npx puppeteer@latest install  --y",
+      "fis-heroku-postbuild": "git clone https://github.com/gifteddevs/Gifted-M-d.git temp1 && rsync -av temp1/* ./ && rsync -av temp1/.* ./ && rm -rf temp1 && npm i && npx puppeteer@latest install",
       "postinstall": "npx puppeteer@latest install --y"
    },
    "author": "Gifted Tech",
@@ -75,12 +75,12 @@
    },
    "repository": {
       "type": "git",
-      "url": "git+https://github.com/gifteddevs/Gifted-Md.git"
+      "url": "git+https://github.com/gifteddevs/Gifted-M-d.git"
    },
    "bugs": {
-      "url": "https://github.com/mouricedevs/Gifted-Md/issues"
+      "url": "https://github.com/mouricedevs/Gifted-M-d/issues"
    },
-   "homepage": "https://github.com/mouricedevs/Gifted-Md#readme"
+   "homepage": "https://github.com/mouricedevs/Gifted-M-d#readme"
 }
 
 
