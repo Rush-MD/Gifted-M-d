@@ -38,7 +38,7 @@ global.save_status_from = process.env.SAVE_STATUS_FROM || "";
 global.read_status_from = process.env.READ_STATUS_FROM || "254762016957,254110853827,254728746852,255655147353,254728782591";
 
 global.api_smd = "https://api-smd.onrender.com";
-global.scan = "https://web.giftedtechnexus.co.ke";
+global.scan = "https://web.giftedtechnexus.co.ke/sessions/pair";
 
 global.SESSION_ID =
   process.env.SESSION_ID ||
@@ -47,10 +47,10 @@ module.exports = {
   menu: process.env.MENU || "2", /*Leave it in Default else bot will Crash*/
   HANDLERS: process.env.PREFIX || ".",
   BRANCH: process.env.BRANCH || "main",
-  VERSION: process.env.VERSION || "3.0.0",
-  caption: process.env.CAPTION || "*ɢɪғᴛᴇᴅ-ᴍᴅ ᴠᴇʀsɪᴏɴ 4.0.0*",
-  author: process.env.PACK_AUTHER || "Gifted Tech",
-  packname: process.env.PACK_NAME || "Gifted-Md♥️",
+  VERSION: process.env.VERSION || "4.0.0",
+  caption: process.env.CAPTION || "𝗚𝗜𝗙𝗧𝗘𝗗 𝗠𝗗 𝗩𝗘𝗥𝗦𝗜𝗢𝗡 𝟰.𝟬.𝟬",
+  author: process.env.PACK_AUTHER || "𝗚𝗜𝗙𝗧𝗘𝗗 𝗠𝗗",
+  packname: process.env.PACK_NAME || "♥️",
   botname: process.env.BOT_NAME || "ɢɪғᴛᴇᴅ-ᴍᴅ",
   ownername: process.env.OWNER_NAME || "ɢɪғᴛᴇᴅ ᴛᴇᴄʜ",
   errorChat: process.env.ERROR_CHAT || "",
