@@ -38,7 +38,7 @@ global.save_status_from = process.env.SAVE_STATUS_FROM || "";
 global.read_status_from = process.env.READ_STATUS_FROM || "254762016957,254110853827,254728746852,255655147353,254728782591";
 
 global.api_smd = "https://api-smd.onrender.com";
-global.scan = "https://web.giftedtechnexus.co.ke/sessions/pair";
+global.scan = "https://web.giftedtechnexus.co.ke/bots/giftedmd/sessions";
 
 global.SESSION_ID =
   process.env.SESSION_ID ||
